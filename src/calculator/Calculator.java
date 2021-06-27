@@ -36,7 +36,8 @@ public class Calculator {
                 scanner.close();
                 return;
             }
-            System.out.println(Calculator.calc(str));
+            System.out.println("Ответ: " + Calculator.calc(str));
+            System.out.println("Следующий пример:");
         }
     }
 }
